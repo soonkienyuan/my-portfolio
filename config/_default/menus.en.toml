@@ -10,20 +10,44 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-#[[main]]
-#  name = "Blog"
-#  pageRef = "posts"
-#  weight = 10
 
-#[[main]]
-#  name = "Parent"
-#  weight = 20
+[[main]]
+name = "My Work"
+weight = 20
 
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+name = "Use Cases"
+parent = "My Work"
+pageRef = "usecase"
+weight = 1
+
+[[main]]
+name = "Cloud Architecture"
+parent = "My Work"
+pageRef = "architecture"
+weight = 2
+
+[[main]]
+name = "Tutorials"
+parent = "My Work"
+pageRef = "tutorials"
+weight = 3
+
+[[main]]
+name = "Blog"
+pageRef = "blog"
+weight = 70
+
+[[main]]
+name = "Projects"
+pageRef = "projects"
+weight = 60
+
+[[main]]
+name = "Me"
+pageRef = "me"
+weight = 80
+
 
 #[[main]]
 #  name = "example sub-menu 2"
@@ -59,9 +83,9 @@
 
 
 # [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 10
+# name = "Tags"
+# pageRef = "tags"
+# weight = 10
 
 # [[footer]]
 #   name = "Categories"
