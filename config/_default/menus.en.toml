@@ -34,13 +34,23 @@ pageRef = "tutorials"
 weight = 3
 
 [[main]]
-name = "Blog"
-pageRef = "blog"
-weight = 70
-
-[[main]]
 name = "Projects"
 pageRef = "projects"
+weight = 30
+
+[[main]]
+name = "Blog"
+pageRef = "blog"
+weight = 40
+
+[[main]]
+name = "Categories"
+pageRef = "categories"
+weight = 50
+
+[[main]]
+name = "Tags"
+pageRef = "tags"
 weight = 60
 
 [[main]]
@@ -49,32 +59,40 @@ pageRef = "me"
 weight = 80
 
 
+[[main]] #https://blowfish.page/samples/icons/
+pre = "github"
+name = ""
+url = "https://github.com/nunocoracao/blowfish"
+weight = 300
+
+# [[main]] #https://blowfish.page/samples/icons/
+# pre = "microsoft"
+# name = "Microsoft"
+# url = "https://github.com/nunocoracao/blowfish"
+# weight = 290
+
+
 #[[main]]
 #  name = "example sub-menu 2"
 #  parent = "Parent"
 #  pageRef = "posts"
 #  weight = 20
 
-#[[subnavigation]]
-#  name = "An interesting topic"
-#  pageRef = "tags/interesting-topic"
-#  weight = 10
+[[subnavigation]]
+name = "An interesting topic"
+pageRef = "tags/interesting-topic"
+weight = 10
+
+[[subnavigation]]
+name = "My Awesome Category"
+pageRef = "categories/awesome"
+weight = 20
 
 #[[subnavigation]]
 #  name = "My Awesome Category"
 #  pre = "github"
 #  pageRef = "categories/awesome"
 #  weight = 20
-
-#[[main]]
-#  name = "Categories"
-#  pageRef = "categories"
-#  weight = 20
-
-#[[main]]
-#  name = "Tags"
-#  pageRef = "tags"
-#  weight = 30
 
 
 # -- Footer Menu --
