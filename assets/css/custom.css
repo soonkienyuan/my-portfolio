@@ -1,0 +1,48 @@
+/* Custom Minecraft-style font for REDSTONETICS */
+
+/* Import Minecraft font from Google Fonts alternative */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+/* Apply Minecraft font globally */
+body,
+html {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+/* Apply to headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+/* Apply to paragraphs and text */
+p,
+span,
+div,
+a,
+li,
+td,
+th {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+/* Smooth rendering for pixelated font */
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optional: Adjust letter spacing for better readability */
+body {
+    letter-spacing: 0.5px;
+}
+
+/* Optional: Adjust line height for better readability */
+p {
+    line-height: 1.8;
+}

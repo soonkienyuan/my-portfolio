@@ -5,7 +5,7 @@ I am an experienced developer specializing in cloud solutions, web development, 
 I build the Architectural Logic that powers modern Data Platforms and the Analytical Mechanics that turn raw signals into insight. From On-Prem foundations to Cloud-scale solutions, I design end-to-end systems with the precision of a master circuit. -->
 
 <div style="text-align: left;">
-<h2 style="">Designing data systems with architectural logic and analytical mechanics.</h1>
+<h3 style="">Designing data systems with architectural logic and analytical mechanics.</h3>
 
 What this site is
 
