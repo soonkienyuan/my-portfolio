@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>REDSTONETICS</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on REDSTONETICS</description>
+    <title>Projects on REDSTONETICS</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on REDSTONETICS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>kienyuansoon@gmail.com (REDSTONETICS)</managingEditor>
     <webMaster>kienyuansoon@gmail.com (REDSTONETICS)</webMaster>
     <copyright>© 2025 REDSTONETICS</copyright>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>abc</title>
