@@ -43,7 +43,7 @@ That opportunity grew my curiostiy and grew into a focus on infrastructure, auto
 <p>I worked with enterprise-scale Azure environments, including:</p>
 
 <ul>
-  <li>Microsoft Cloud Adoption Framework, Azure Landing Zone</li>
+  <li>Microsoft Cloud Adoption Framework</li>
   <li>Connectivity, Management, and Application Landing Zone </li>
 </ul>
 
@@ -54,10 +54,11 @@ That opportunity grew my curiostiy and grew into a focus on infrastructure, auto
   <li>Enabled experiment tracking and metadata logging for reproducibility</li>
   <li>centralized Model Registry for versioning and governance</li>
   <li>Track metadata and experiment logs</li>
-  <li>Development and serving environments so data scientists could train and deploy models on cost-efficient compute/Endpoint </li>
+  <li>Development and serving environments so data scientists could train and deploy models on cost-efficient compute/endpoint </li>
   
 </ul>
-
+<details>
+<summary><strong>Read more</strong></summary>
 <p>I also learned and built a serverless lakehouse to support SQL-based analytics on the data lake:</p>
 <ul>
   <li>Enabled downstream analytics and applications</li>
@@ -73,7 +74,7 @@ That opportunity grew my curiostiy and grew into a focus on infrastructure, auto
 </ul>
 
 <p>This was where I moved from writing scripts IaC to building real, secure, and operable platforms.</p>
-
+</details>
 {{< /timelineItem >}}
 
 
