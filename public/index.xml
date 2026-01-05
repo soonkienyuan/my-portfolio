@@ -8,7 +8,7 @@
     <language>en</language>
     <managingEditor>kienyuansoon@gmail.com (REDSTONETICS)</managingEditor>
     <webMaster>kienyuansoon@gmail.com (REDSTONETICS)</webMaster>
-    <copyright>© 2025 REDSTONETICS</copyright>
+    <copyright>© 2026 REDSTONETICS</copyright>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -17,6 +17,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>kienyuansoon@gmail.com (REDSTONETICS)</author>
       <guid>http://localhost:1313/projects/abc/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>ABOUT ME</title>
+      <link>http://localhost:1313/me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>kienyuansoon@gmail.com (REDSTONETICS)</author>
+      <guid>http://localhost:1313/me/</guid>
       <description></description>
       
     </item>

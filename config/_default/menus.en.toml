@@ -28,20 +28,19 @@ pageRef = "architecture"
 weight = 2
 
 [[main]]
-name = "Tutorials"
-parent = "My Work"
-pageRef = "tutorials"
-weight = 3
-
-[[main]]
 name = "Projects"
 pageRef = "projects"
 weight = 30
 
 [[main]]
-name = "Blog"
-pageRef = "blog"
+name = "Writings"
+pageRef = "writings"
 weight = 40
+
+[[main]]
+name = "Books"
+pageRef = "books"
+weight = 41
 
 [[main]]
 name = "Categories"

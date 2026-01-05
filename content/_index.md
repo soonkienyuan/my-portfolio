@@ -8,7 +8,7 @@ I build the Architectural Logic that powers modern Data Platforms and the Analyt
 
 ### What this site is
 
-Redstonetics is a personal portfolio and knowledge space focused on how data systems are designed, built, and connected.
+Redstonetics is my personal portfolio and lab. I explore how data systems are designed, built, and connected.
 
 The work here explores how different layers of a system fit together, from infrastructure and platforms to automation and analytics.
 
@@ -24,12 +24,12 @@ It also acts as a personal workbench to combat procrastination — helping me tu
 
 2. **Projects** : Personal interests and self-driven work, embracing open source to build meaningful projects.
    
-3. **Writing**: Notes, tutorials, concepts, patterns, and lessons learned along the way
+3. **Writings**: Notes, tutorials, concepts, patterns, and lessons learned along the way
    
-4. **Book** :Personal reading and takeaways — ideas, stories, and lessons that inspire me.
-5. **Categories** : Organized topics to help you explore my work and interests
-6. **Tags** : Keywords for quick navigation and reference
-7. **Me** : My background, professional journey, experience, expertise, and key projects
+4. **Books** :Personal reading and takeaways — ideas, stories, and lessons that inspire me.
+5. **Categories** : organized ways to explore my work
+6. **Tags** : quick reference keywords
+7. **Me** : background, career story, expertise, and key projects
 
 
 
@@ -37,10 +37,8 @@ It also acts as a personal workbench to combat procrastination — helping me tu
 
 Redstonetics is guided by a simple belief:
 
-
-
 >[!quote]
->**Systems and architecture exist to serve users, not to add complexity, and should remain understandable and maintainable**
+>**Systems exist to serve users, not complexity. They must remain understandable and maintainable.**
 
 
 Architecture is not about chasing trends or drawing perfect diagrams — it’s about reliability, clarity, and working within real constraints: people, cost, complexity, and failure.
@@ -57,6 +55,5 @@ Some of the most dependable/monolith systems in the world favor stability over n
 
 These examples illustrate a simple principle: build what works, observe how it behaves, and evolve intentionally.
 
-This site reflects that mindset: **building things, breaking them**, and **documenting what actually works**.
 </div>
 
