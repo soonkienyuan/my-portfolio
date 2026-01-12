@@ -7,13 +7,19 @@ showComments: true
 showSummary: true
 ---
 
+<style>
+  details summary .show-less { display: none; }
+  details[open] summary .show-less { display: inline; }
+  details[open] summary .read-more { display: none; }
+</style>
+
 My timeline :
 Opporturnity → Real-world Systems → Cloud Engineering & Data → Data Solutioning & Architecture  → Redstonetics → Future
 
 {{< timeline >}}
 
 {{< timelineItem icon="lightbulb" header="How I got into building systems" badge="Early years" subheader="FinalYearProject" >}}
-<p>I started with my bachelor Degree’s industry-collaboration data science project: "Self-Service Analytics data lakehouse" using Dremio as the data platform.</p>
+<p>I started with my bachelor Degree’s industry-collaboration data science project: <strong>"Self-Service Analytics data lakehouse"</strong> using <strong>Dremio</strong> as the data platform.</p>
 
 <p>The project itself was far from perfect — my work and paper were rough and not very production-ready — but it showed me something important:</p>
 
@@ -38,7 +44,7 @@ That opportunity grew my curiostiy and grew into a focus on infrastructure, auto
 
 
 
-<p>My first real-world project was building a Network Data Platform for a telecommunications company’s Network Analytics & Intelligence team.</p>
+<p>My first real-world project was building a <strong>Network Data Platform for a telecommunications company’s Network Analytics & Intelligence team</strong>.</p>
 
 <p>I worked with enterprise-scale Azure environments, including:</p>
 
@@ -56,9 +62,12 @@ That opportunity grew my curiostiy and grew into a focus on infrastructure, auto
   <li>Track metadata and experiment logs</li>
   <li>Development and serving environments so data scientists could train and deploy models on cost-efficient compute/endpoint </li>
   
-</ul>
 <details>
-<summary><strong>Read more</strong></summary>
+<summary>
+  <strong>
+    <span class="read-more">Read more</span>
+  </strong>
+</summary>
 <p>I also learned and built a serverless lakehouse to support SQL-based analytics on the data lake:</p>
 <ul>
   <li>Enabled downstream analytics and applications</li>
@@ -73,27 +82,77 @@ That opportunity grew my curiostiy and grew into a focus on infrastructure, auto
   <li>SAST and security scanning for all Terraform code for compliance assurance</li>
 </ul>
 
-<p>This was where I moved from writing scripts IaC to building real, secure, and operable platforms.</p>
+<p>This is where infrastructure, data engineering, and architecture come together into systems teams can actually use.</p>
+<div class="text-right cursor-pointer text-sm font-bold opacity-70 hover:opacity-100 mt-2" onclick="this.parentElement.removeAttribute('open')">
+  ↑ Show less
+</div>
 </details>
 {{< /timelineItem >}}
 
 
-{{< timelineItem icon="lightbulb" header="Cloud Engineering & Data Platform" badge="Present" subheader="Platforms, pipelines, and DevOps" >}}
-Include:
+{{< timelineItem icon="lightbulb" header="Cloud Engineering & Data Platform" badge="Present" subheader="Platforms, Data, and DevOps" >}}
 
-AWS / Azure / GCP
 
-Kubernetes, Terraform, CI/CD
+<blockquote class="border-l-4 border-primary-500 pl-4 italic my-4">
+  I currently design, build, and operate data platforms on Azure
+</blockquote>
 
-Data pipelines, analytics platforms
+<p><strong>My work spans the full platform lifecycle:</strong></p>
+<ul>
+  <li>Designing Azure Cloud architecure, Landing Zone (networking, identity, isolation, security)</li>
+  <li>Building data platforms from ingestion to analytics</li>
+  <li>Automating everything with Terraform, CI/CD, and policy-driven governance</li>
+  <li>Designing data flows and medallion architectures (raw → curated → consumer → Dashboard or Database)</li>
+</ul>
 
-Example:
+<p>I design storage and network boundaries intentionally:</p>
 
-I now focus on designing and operating cloud-based data platforms — from infrastructure and networking to data ingestion, processing, and analytics.
+<ul>
+  <li>Landing storage accounts live in subnets exposed to data sources (internet or on-prem)</li>
+  <li>Raw, structured, curated, and consumer zones live in private subnets, isolated from direct external access</li>
+  <li>Data moves inward through controlled pipelines, not open endpoints</li>
+</ul>
+
+
+<details>
+<summary>
+  <strong>
+    <span class="read-more">Read more</span>
+  </strong>
+</summary>
+<p>When data engineers are not available, I also work at the data-ingestion and pipeline layer:</p>
+
+<ul>
+  <li>Writing Python scripts to pull data from APIs and sources</li>
+  <li>Orchestrating and scheduling pipelines using Azure Data Factory</li>
+</ul>
+
+<p>On a typical platform I work across:</p>
+
+<ul>
+  <li>Networking & isolation (hub-spoke, private endpoints, segmented subnets)</li>
+  <li>Compute & PaaS (VMs, managed services, Kubernetes when appropriate)</li>
+  <li>Data flows (ingestion → raw → curated → consumer)</li>
+  <li>Security & governance (IAM, secrets, logging, compliance, cost controls)</li>
+</ul>
+
+<p>I focus on building platforms that are:</p>
+
+<ul>
+  <li>Operable (easy to run, monitor, and troubleshoot)</li>
+  <li>Cost-aware</li>
+  <li>Safe to change</li>
+</ul>
+
+<p>This is where infrastructure, data engineering, and architecture come together into systems teams can actually use.</p>
+<div class="text-right cursor-pointer text-sm font-bold opacity-70 hover:opacity-100 mt-2" onclick="this.parentElement.removeAttribute('open')">
+  ↑ Show less
+</div>
+</details>
 {{< /timelineItem >}}
 
 
-{{< timelineItem icon="lightbulb" header="Data Solutioning and Architecture" badge="Ongoing" subheader="Systems/Solution that work">}}
+{{< timelineItem icon="lightbulb" header="Beyond Cloud Engineering -- OpenSource, Open Data Platform.." badge="Ongoing" subheader="Systems/Solution that work">}}
 Example:
 
 I believe good architecture starts simple, stays understandable, and evolves when real constraints demand it. I care more about operability, cost, and failure modes than trendy patterns.
